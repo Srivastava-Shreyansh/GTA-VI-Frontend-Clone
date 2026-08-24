@@ -46,11 +46,17 @@ const LeonidaExplore = () => {
         ))}
       </div>
 
-      <div className="z-10 mt-16 flex flex-col items-center relative mb-16">
+      <div className="z-10 mt-16 flex gap-5 items-center relative mb-16">
         <button
           className="bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-black uppercase tracking-wider text-xl px-10 py-4 rounded-full transition-all duration-300 cursor-pointer"
-          onClick={() => window.open("https://www.rockstargames.com/VI", "_blank")}>
+          onClick={() => window.open("https://youtu.be/QdBZY2fkU-0?si=lq1VUZxFiKEiOeJH", "_blank")}>
           Watch Trailer 1
+        </button>
+
+        <button
+          className="bg-transparent border-2 border-white hover:bg-white hover:text-black text-white font-black uppercase tracking-wider text-xl px-10 py-4 rounded-full transition-all duration-300 cursor-pointer"
+          onClick={() => window.open("https://youtu.be/VQRLujxTm3c?si=D3BIzJumN_l74vYT", "_blank")}>
+          Watch Trailer 2
         </button>
       </div>
       

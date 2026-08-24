@@ -56,7 +56,8 @@ const App = () => {
       gsap.to(".landing .text", { scale: 1, rotate:0, duration: 2, delay: -0.8, ease: "expo.inOut" });
       gsap.to(".landing .character", {
         scale: 1,
-        x: "-50%",
+        xPercent: -50,
+        x: 0,
         bottom: "0%",
         rotate:0,
         duration: 2,
@@ -71,7 +72,8 @@ const App = () => {
       gsap.to(".landing .text", { scale: 1, rotate:0, duration: 2, delay: -0.8, ease: "expo.inOut" });
       gsap.to(".landing .character", {
         scale: 1.4,
-        x: "-50%",
+        xPercent: -50,
+        x: 0,
         bottom: "-15%",
         rotate:0,
         duration: 2,
@@ -84,6 +86,11 @@ const App = () => {
 
     gsap.set(".main-content .text", {
       xPercent: -50,
+    });
+    
+    gsap.set(".landing .character", {
+      xPercent: -50,
+      x: 0,
     });
 
     const handleMouseMove = (e) => {
