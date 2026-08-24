@@ -1,16 +1,49 @@
-# React + Vite
+# 🌴 GTA VI – Frontend Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An immersive, fully responsive frontend web clone inspired by the official **Grand Theft Auto VI** website and promotional aesthetic. Designed with fluid animations, dynamic typography, and Vice City-themed visuals.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🎬 **Hero Banner:** Cinematic landing view with high-res game media and video backdrops.
+- 📱 **Responsive Layout:** Pixel-perfect design optimized across desktop, tablet, and mobile screens.
+- ⚡ **Interactive UI:** Smooth transitions, parallax effects, and animated buttons.
+- 🎨 **Vice City Aesthetics:** Neon gradients, custom color palettes, and retro typography.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** HTML5 / CSS3 / JavaScript (or React / Vite)
+- **Styling:** Custom CSS / Tailwind CSS
+- **Media & Assets:** Rockstar Games promotional media, web-optimized formats
+
+---
+
+## 📁 Folder Structure
+
+```
+GTA-VI-Frontend-Clone/
+│
+├── assets/
+│   ├── images/          # Background posters, hero images, and character art
+│   ├── videos/          # Trailer clips and looping video backgrounds
+│   ├── icons/           # UI and social media icons
+│   └── fonts/           # Custom game fonts and typography
+│
+├── styles/
+│   ├── main.css         # Global styles and resets
+│   ├── responsive.css   # Media queries for tablet and mobile screens
+│   └── animations.css   # Keyframes, hover states, and transition effects
+│
+├── scripts/
+│   └── main.js          # DOM manipulation, video controls, and scroll triggers
+│
+├── index.html           # Main entry point and page structure
+├── .gitignore           # Git ignore rules for node_modules/build artifacts
+└── README.md            # Project documentation and setup guide
+```
+
+## ⚠️ Disclaimer
+This project is a fan-made clone created solely for educational and portfolio demonstration purposes. All game assets, logos, and trademarks belong to Rockstar Games and Take-Two Interactive.
