@@ -1,16 +1,24 @@
-# React + Vite
+# 🌴 GTA VI – Official Website & UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An immersive, responsive frontend clone inspired by Rockstar Games' **Grand Theft Auto VI** website and promotional aesthetic. Built with modern web technologies to deliver cinematic visuals, smooth animations, and Vice City vibes across all screen sizes.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🎬 **Hero Showcase:** High-impact hero section with dynamic video/image backdrop and neon aesthetics.
+- 📱 **Fully Responsive:** Fluid layouts optimized for desktop, tablet, and mobile devices.
+- ⚡ **Smooth Animations:** Transitions, hover effects, and interactive UI components.
+- 🎨 **Vice City Styling:** Custom typography, color palettes, and retro-modern gradients.
+- 🚀 **Fast & Lightweight:** Optimized asset delivery and clean code structure.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Markup & Structure:** HTML5 / JSX
+- **Styling:** Tailwind CSS
+- **Interactivity:** JavaScript / React (Vite)
+- **Icons & Assets:** Lucide Icons / Custom Game Media
+- **Animation:** GSAP, Lenis
+---
