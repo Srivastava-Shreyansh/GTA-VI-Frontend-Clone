@@ -30,7 +30,7 @@ const SecondPage = () => {
         <button
           className="mt-10 bg-amber-500 hover:bg-amber-400 text-black font-black uppercase tracking-wider text-xl sm:text-2xl px-8 py-4 rounded-md transition-all active:scale-95 cursor-pointer shadow-[0_0_20px_rgba(245,158,11,0.3)] hover:shadow-[0_0_30px_rgba(245,158,11,0.5)]"
           onClick={click}>
-          Download Now
+          Pre-Order Now
         </button>
       </div>
     </div>
