@@ -12,7 +12,7 @@
 
 @font-face {
     font-family: "GTA";
-    src: url("/pricedown.otf");
+    src: url("/PricedownBl-Regular 900.ttf") format('truetype');
 }
 html, body, #root {
     min-height: 100vh;
