@@ -9,6 +9,7 @@ import Bottom from "./components/Bottom";
 import SecondPage from "./components/SecondPage";
 import JasonSpotlight from "./components/JasonSpotlight";
 import LeonidaExplore from "./components/LeonidaExplore";
+import CustomCursor from "./components/CustomCursor";
 
 const App = () => {
   const [showContent, setShowContent] = useState(false);
@@ -118,6 +119,7 @@ const App = () => {
 
   return (
     <ReactLenis root>
+      <CustomCursor />
       <div className="w-full bg-black min-h-screen text-white overflow-hidden scrollbar-none">
         
         {loading && (
