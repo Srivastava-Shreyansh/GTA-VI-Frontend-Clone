@@ -15,7 +15,7 @@ An immersive, fully responsive frontend web clone inspired by the official **Gra
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** ReactJS
+- **Frontend:** React 19, Vite 8, JavaScript
 - **Styling:** Tailwind CSS
 - **Animation:** GSAP | Lenis
 - **Media & Assets:** Rockstar Games promotional media, web-optimized formats
